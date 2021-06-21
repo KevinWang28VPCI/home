@@ -1,0 +1,317 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+  font-size: 25px;
+}
+
+.font {
+font-size: 3em;
+font-weight: 200;
+margin: 0;
+padding: 1em;
+}
+
+
+
+.center {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: auto;
+
+}
+
+.center1 {
+  text-align: center;
+}
+
+.fade{
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: background-color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+  background-color: #7FFFD4;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font: Fantasy ;
+  margin: 0;
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;  
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.box {
+  float: left;
+  padding: 1.5em 1em;
+  width: 385px;
+  height: 385px;
+
+  transition(background);
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: background-color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+  border-style: double;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.box:hover {
+    background: #A0A0A0;
+}
+
+
+.box h1 {
+    text-align: center;h1
+font-size: 2.25em;
+}
+
+.box p {
+  margin-top: 4em;
+  height: 6em;
+  text-align: justify;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.box .button {
+  margin: 4em auto;
+  -webkit-transition: background-color 0.35s ease-out;
+  -moz-transition: background-color 0.35s ease-out;
+  -o-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+}
+
+.link{
+  font-weight: bold;
+  color: $red;
+}
+
+.link:hover {color: darken($red, 10%);}
+.link:active {color: lighten($red, 5%);}
+
+
+.html2 {
+  background: url('images/blue.jpg');
+  background-size: 100%;
+}
+
+
+.html1 {
+  background: url(images/winter.jpg) fixed;
+  background-size: 100%;
+}
+
+div {
+  overflow: hidden;
+}
+
+
+.p1 {
+  padding: 0 5%;
+}
+
+.p2 {
+   text-align: center;
+}
+
+
+
+.img1 {
+  box-shadow: 0px 0px 4px #000;
+}
+
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.white {
+  background: #eeeeec;
+  padding: 0 5%;
+}
+
+.white1 {
+  background:	#303030;
+  padding: 0 5%;
+}
+
+.green {
+  background:	#008B8B;
+  padding: 0 5%;
+}
+
+
+
+
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+}
+.semitrans {
+  background: rgba(255, 255, 255, .5);
+  padding: 0 5%;
+}
+
+.badminton{
+  border: 5px solid #555;
+transition: height .2s, width .2s;
+}
+
+.code{
+  border: 5px solid #555;
+}
+.badminton:hover{
+	height: 225px;
+	width: 175px;
+}
+
+
+.dark {
+  color: #eeeeec;
+  background: #010105;
+  padding: 0 5%;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 2%;
+}
+.floatright {
+  float: right;
+  margin 2%;
+}
+
+.more {
+  text-align: center;
+  font-size: 17px;
+}
+.more a {
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.more a:hover {
+  color: #777;
+}
+
+
+
+
+
+.zoom{
+	transition: height .2s, width .2s;
+
+}
+
+.zoom:hover{
+	height: 55px;
+	width: 55px;
+	
+	
+}
