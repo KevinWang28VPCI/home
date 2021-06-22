@@ -1,67 +1,136 @@
 <!DOCTYPE html>
 <html class="html3">
-<head>
-    <link rel='stylesheet' type='text/css' href='style.css'/>
-    <meta charset="UTF-8">
-</head>
+   <head>
+      <link rel='stylesheet' type='text/css' href='style.css'/>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <div class="navbar">
+         <a href="index.html" class="fade" >Home</a>
+         <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+               <a href="page2.html">About Me!</a>
+               <a href="page3.html">Hobbies</a>
+               <a href="page4.html">Other Stuff</a>
+            </div>
+         </div>
+      </div>
+      <div class="blue">
+         <h1 class="right">Other Things</h1>
+         <p class= "p1">These are other things that couldn't fit into other categories.</p>
+      </div>
+      <div class="semitrans">
+         <h1>Flowers</h1>
+         <p class= "p1">A odd thing about me is that I like flowers a lot, my favourite flower is the "Black Petunia."</p>
+         <div class="center">
+            <img src="images/flower.jpg" class="flower1" height="200" width="250" alt="black petunia">
+         </div>
+      </div>
+      <div class="semitrans">
+         <div class ="center1">
+            <h2>Petunia</h2>
+            <p>A Petunia is genus of 20 species of South American origin. This derives from the french word, "petun" which means tobacoo.</p>
+            <h2>Black Petunia</h2>
+            <p>Black petunias are more visually appealing than other foliage because of their dramatic color. They are relatively easy to grow, and they last longer than other flowers. </p>
+            <p>Here is a video on the flower.
+            <p>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/T7ptw0cQlLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         </div>
+      </div>
+      <div class="yellow">
+         <h1>Equipment</h1>
+         <p>This is a list of software I used to make this website!</p>
+         <table>
+            <tr>
+               <th>Name</th>
+               <th>Price</th>
+               <th>Company</th>
+            </tr>
+            <tr>
+               <td>HTML</td>
+               <td>Free</td>
+               <td>No company</td>
+            </tr>
+            <tr>
+               <td>CSS</td>
+               <td>Free</td>
+               <td>No Company</td>
+            </tr>
+            <tr>
+               <td>Google Chrome</td>
+               <td>Free</td>
+               <td>Google</td>
+            </tr>
+            <tr>
+               <td>VSCode</td>
+               <td>Free</td>
+               <td>Microsoft</td>
+            </tr>
+            <tr>
+               <td>Windows 10</td>
+               <td>~$150</td>
+               <td>Microsoft</td>
+            </tr>
+         </table>
+         <br>
+      </div>
 
-<body>
-
-<div class="navbar">
-  <a href="index.html" class="fade" >Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-
-    <div class="dropdown-content">
-      <a href="page2.html">About Me!</a>
-      <a href="page3.html">Hobbies</a>
-      <a href="page4.html">Other Stuff</a>
 
 
+      <div class = "green" id="JS">
+      	 <h1>Button Game</h1>
+	 <p>Click the button until you get the alert that says: "Win!" This is made in JavaScript.</p>
+         <div class = "center">
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+         <br>
+         </div>
+         <div class = "center">
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+         <br>
+         </div>
+         <div class = "center">
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+         <br>
+         </div>
+         <div class = "center">
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+            <button class="button" onclick="win()">Button</button>
+            <button class="button" onclick="lose()">Button</button>
+         <br>
+         </div>
+      </div>
 
-    </div>
-  </div> 
-</div>
+      <script>
+      function win() {
+         alert("Win! You get a cookie.");
+      }
+      function lose() {
+         alert("Not This one..");
+      }
+      </script>
 
-
-
-
-
-
-<div class="blue">
-  <h1 class="right">Other Things</h1>
-  <p class= "p1">These are other things that couldn't fit into other categories.</p>
-</div>
-
-
-
-
-
-
-<div class="semitrans">
-  <h1>Flowers</h1>
-  <p class= "p1">A odd thing about me is that i like flowers a lot, my favourite flower is the "Black Petunia".</p>
-
-</div>
-
-
-<div class="dark">
-<div class="center">
-  <p>Contacts: </p>
-        <a href="https://discord.com">
-            <img class="zoom" src="images/discord.png" height="50" width="50" alt="Instagram">
-        </a>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-</body>
+      <div class="dark">
+         <div class="center">
+            <p>Contacts: </p>
+            <a href="https://discord.com">
+            <img class="zoom" src="images/discord.png" height="50" width="50" alt="discord">
+            </a>
+         </div>
+      </div>
+   </body>
 </html>

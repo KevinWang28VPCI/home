@@ -1,66 +1,53 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  height:100%;
+  height: 100%;
   font-size: 25px;
 }
-
 .font {
-font-size: 3em;
-font-weight: 200;
-margin: 0;
-padding: 1em;
+  font-size: 3em;
+  font-weight: 200;
+  margin: 0;
+  padding: 1em;
 }
-
-.intro{
-	text-align: center;
-	margin: 10px;
-        font-family: "Lucida Console", "Courier New", monospace;
-
+.intro {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
-
 .glow {
   font-size: 80px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
   font-family: cursive;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
-
-
-.intro1{
-	text-align: center;
-	margin: 80px;
-        font-family: "Lucida Console", "Courier New", monospace;
+.intro1 {
+  text-align: center;
+  margin: 80px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
-
-
-
 .center {
-    font-size: 18px;
-    text-align: center;
-    font-family: "Lucida Console", "Courier New", monospace;
-    margin: auto;
-
+  font-size: 18px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: auto;
 }
-
 .center1 {
   text-align: center;
 }
-
-.fade{
+.fade {
   -webkit-transition: background-color 0.35s ease-out;
   -moz-transition: background-color 0.35s ease-out;
   -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
-  background-color: #7FFFD4;
+  background-color: #7fffd4;
 }
-
 .navbar {
   overflow: hidden;
   background-color: #333;
 }
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -69,42 +56,37 @@ padding: 1em;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  font: Fantasy ;
+  font: Fantasy;
   margin: 0;
   -webkit-transition: background-color 0.35s ease-out;
   -moz-transition: color 0.35s ease-out;
   -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
 }
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;  
-
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -113,50 +95,37 @@ padding: 1em;
   display: block;
   text-align: left;
 }
-
-
-
 .dropdown-content a:hover {
   background-color: #ddd;
-
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .box {
   float: left;
   padding: 1.5em 1em;
   width: 385px;
   height: 385px;
-
-  transition(background);
   -webkit-transition: background-color 0.35s ease-out;
   -moz-transition: background-color 0.35s ease-out;
   -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
   border-style: double;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
-
 .box:hover {
-    background: #A0A0A0;
+  background: #a0a0a0;
 }
-
-
 .box h1 {
-    text-align: center;h1
-font-size: 2.25em;
+  text-align: center;
+  font-size: 2.25em;
 }
-
 .box p {
   margin-top: 4em;
   height: 6em;
   text-align: justify;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
-
 .box .button {
   margin: 4em auto;
   -webkit-transition: background-color 0.35s ease-out;
@@ -165,53 +134,32 @@ font-size: 2.25em;
   transition: background-color 0.35s ease-out;
 }
 
-.link{
-  font-weight: bold;
-  color: $red;
-}
-
-.link:hover {color: darken($red, 10%);}
-.link:active {color: lighten($red, 5%);}
-
-.html2{
-  background: url('images/space.jpg');
+.html2 {
+  background: url("images/space.jpg");
   background-size: 100%;
 }
-
-
-
 .html3 {
-  background: url('images/wood.jpg');
+  background: url("images/wood.jpg");
   background-size: 100%;
 }
-
-
 .html1 {
   background: url(images/winter.jpg) fixed;
   background-size: 100%;
 }
-
 div {
   overflow: hidden;
 }
-
-
 .p1 {
   padding: 0 5%;
 }
-
 .p2 {
-   text-align: center;
+  text-align: center;
 }
-
-
-
 .img1 {
   box-shadow: 0px 0px 4px #000;
 }
-
 #header {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1%;
   overflow: hidden;
   height: 55px;
@@ -231,7 +179,6 @@ div {
   margin-left: 10px;
   font-size: 20px;
 }
-
 .fullscreen {
   height: 95%;
   position: relative;
@@ -244,32 +191,40 @@ div {
   color: #fff;
   text-shadow: 0px 0px 2px #000;
 }
-
 .white {
   background: #eeeeec;
   padding: 0 5%;
 }
-
 .white1 {
-  background:	#303030;
+  background: #303030;
   padding: 0 5%;
 }
-
 .blue {
-  background:	#FFF8DC;
+  background: #fff8dc;
   padding: 0 5%;
 }
-
-
-
-
+.yellow {
+  background: #fa8c75;
+  padding: 0 5%;
+}
 .green {
-  background:	#008B8B;
+  background: #008b8b;
   padding: 0 5%;
 }
-
-
-
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 .nobg {
   background: none;
   padding: 0 5%;
@@ -277,88 +232,79 @@ div {
   text-shadow: 0px 0px 4px #000;
 }
 .semitrans {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   padding: 0 5%;
 }
-
-.badminton{
+.badminton {
   border: 5px solid #555;
-transition: height .2s, width .2s;
+  transition: height 0.2s, width 0.2s;
 }
-
-.code{
+.flower1 {
+  border: 5px solid #777;
+  animation: mymove 5s infinite;
+  transition: transform 0.7s ease-in-out;
+}
+.flower1:hover {
+  transform: rotate(360deg);
+}
+.code {
   border: 5px solid #555;
 }
-
-.badminton:hover{
-	height: 225px;
-	width: 175px;
+.badminton:hover {
+  height: 225px;
+  width: 175px;
 }
-
-.album{
+.album {
   border: 5px solid #555;
-
-
 }
-.king{
+.king {
   border: 5px solid #555;
-transition: height .2s, width .2s;
+  transition: height 0.2s, width 0.2s;
 }
-
-.king:hover{
-
-    box-shadow: 0px 0px 20px #fff;
+.king:hover {
+  box-shadow: 0px 0px 20px #fff;
 }
-
-
-
 .dark {
   color: #eeeeec;
   background: #010105;
   padding: 0 5%;
 }
-
 .nopadding {
   padding: 0;
 }
-
 .floatleft {
   float: left;
   margin: 2%;
 }
-.floatright {
-  float: right;
-  margin 2%;
-}
-
-.more {
+button {  
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  font-size: 17px;
-}
-.more a {
-  color: #aaa;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-.more a:hover {
-  color: #777;
-}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
-.right{
-	text-align: right;
-	margin: 50px;
 }
 
 .zoom{
-	transition: height .2s, width .2s;
+  transition: height .2s, width .2s;
 
 }
 
 .zoom:hover{
-	height: 55px;
-	width: 55px;
+  height: 55px;
+  width: 55px;
 	
 	
 }
+
 
