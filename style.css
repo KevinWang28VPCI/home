@@ -100,10 +100,6 @@ body {
   padding: 1.5em 1em;
   width: 385px;
   height: 385px;
-  -webkit-transition: background-color 0.35s ease-out;
-  -moz-transition: background-color 0.35s ease-out;
-  -o-transition: background-color 0.35s ease-out;
-  transition: background-color 0.35s ease-out;
   border-style: double;
   font-family: "Trebuchet MS", sans-serif;
 }
