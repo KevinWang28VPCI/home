@@ -8,6 +8,7 @@ body {
   font-weight: 200;
   margin: 0;
   padding: 1em;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 .intro {
   text-align: center;
@@ -303,8 +304,9 @@ button:hover{
 .zoom:hover{
   height: 55px;
   width: 55px;
-	
-	
 }
 
+.nicefont{
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+}
 
