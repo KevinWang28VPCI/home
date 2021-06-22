@@ -39,9 +39,6 @@ body {
   text-align: center;
 }
 .fade {
-  -webkit-transition: background-color 0.35s ease-out;
-  -moz-transition: background-color 0.35s ease-out;
-  -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
   background-color: #7fffd4;
 }
@@ -71,9 +68,6 @@ body {
   font-family: inherit;
   font: Fantasy;
   margin: 0;
-  -webkit-transition: background-color 0.35s ease-out;
-  -moz-transition: color 0.35s ease-out;
-  -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
 }
 .navbar a:hover,
@@ -129,9 +123,6 @@ body {
 }
 .box .button {
   margin: 4em auto;
-  -webkit-transition: background-color 0.35s ease-out;
-  -moz-transition: background-color 0.35s ease-out;
-  -o-transition: background-color 0.35s ease-out;
   transition: background-color 0.35s ease-out;
 }
 
