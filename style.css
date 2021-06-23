@@ -128,7 +128,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 .box .button {
-  margin: 4em auto;
+  margin: 18px;
   transition: background-color 0.35s ease-out;
   display: block;
   padding: .75em 1.25em;
