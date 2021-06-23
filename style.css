@@ -19,7 +19,7 @@ body {
 }
 
 li > a {
-    font-family: "Lucida Console", "Courier New", monospace;
+  font-family: Verdana, Arial, Tahoma, Serif;
 }
 
 /* class for the homepage intro*/
