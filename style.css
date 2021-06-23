@@ -1,8 +1,10 @@
+/* body text */
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   font-size: 25px;
 }
+/*normal font class */
 .font {
   font-size: 3em;
   font-weight: 200;
@@ -10,11 +12,18 @@ body {
   padding: 1em;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+/* class for the homepage intro*/
 .intro {
   text-align: center;
   margin: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+.intro1 {
+  text-align: center;
+  margin: 80px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/*class to make it grow */
 .glow {
   font-size: 80px;
   color: #fff;
@@ -24,11 +33,7 @@ body {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
     0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
-.intro1 {
-  text-align: center;
-  margin: 80px;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
+/*class to center it*/
 .center {
   font-size: 18px;
   text-align: center;
@@ -38,6 +43,8 @@ body {
 .center1 {
   text-align: center;
 }
+
+/* classes for the top menu bar */
 .fade {
   transition: background-color 0.35s ease-out;
   background-color: #7fffd4;
@@ -95,6 +102,8 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* classes for the box */
 .box {
   float: left;
   padding: 1.5em 1em;
@@ -120,7 +129,7 @@ body {
   margin: 4em auto;
   transition: background-color 0.35s ease-out;
 }
-
+/* code for the backgrounds */
 .html2 {
   background: url("images/space.jpg");
   background-size: 100%;
@@ -136,6 +145,8 @@ body {
 div {
   overflow: hidden;
 }
+
+/* page template classes */
 .p1 {
   padding: 0 5%;
 }
@@ -178,6 +189,8 @@ div {
   color: #fff;
   text-shadow: 0px 0px 2px #000;
 }
+
+/* background colors */
 .white {
   background: #eeeeec;
   padding: 0 5%;
@@ -198,13 +211,14 @@ div {
   background: #008b8b;
   padding: 0 5%;
 }
+
+/* classes for the tables */
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-td,
-th {
+td,th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -222,6 +236,8 @@ tr:nth-child(even) {
   background: rgba(255, 255, 255, 0.5);
   padding: 0 5%;
 }
+
+/* classes for the pictures */
 .badminton {
   border: 5px solid #555;
   transition: height 0.2s, width 0.2s;
@@ -263,6 +279,8 @@ tr:nth-child(even) {
   float: left;
   margin: 2%;
 }
+
+/* classes for the buttons */
 button {  
   background-color: #4CAF50;
   border: none;
@@ -282,6 +300,7 @@ button:hover{
 
 }
 
+/* classes for the contacts */
 .zoom{
   transition: height .2s, width .2s;
 
@@ -292,6 +311,7 @@ button:hover{
   width: 55px;
 }
 
+/* another nice font */
 .nicefont{
   font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
 }
