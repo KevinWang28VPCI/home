@@ -12,20 +12,23 @@ body {
   padding: 1em;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+.intro, .intro1, .fade, .box  {
+  transition: background-color 0.35s ease-out;
+  
+}
 /* class for the homepage intro*/
 .intro {
   text-align: center;
   margin: 10px;
   font-family: "Lucida Console", "Courier New", monospace;
-  transition: background-color 0.35s ease-out;
 }
 .intro1 {
   text-align: center;
   margin: 80px;
   font-family: "Lucida Console", "Courier New", monospace;
-  transition: background-color 0.35s ease-out;
 }
-/*class to make it grow */
+/*class to make it glow */
 .glow {
   font-size: 80px;
   color: #fff;
@@ -57,7 +60,6 @@ body {
 
 /* classes for the top menu bar */
 .fade {
-  transition: background-color 0.35s ease-out;
   background-color: #7fffd4;
 }
 .navbar {
@@ -121,7 +123,6 @@ body {
   height: 385px;
   border-style: double;
   font-family: "Trebuchet MS", sans-serif;
-  transition: background-color 0.35s ease-out;
 }
 .box:hover {
   background: #a0a0a0;
