@@ -17,6 +17,11 @@ body {
   transition: background-color 0.35s ease-out;
   
 }
+
+li > a {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 /* class for the homepage intro*/
 .intro {
   text-align: center;
