@@ -111,6 +111,7 @@ body {
   height: 385px;
   border-style: double;
   font-family: "Trebuchet MS", sans-serif;
+  transition: background-color 0.35s ease-out;
 }
 .box:hover {
   background: #a0a0a0;
