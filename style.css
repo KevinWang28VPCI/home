@@ -128,22 +128,6 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.introbutton{
-  transition: background-color 0.35s ease-out;
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background: red;
-  color: #fff;
-  border: 0;
-  cursor: pointer;
-}
-
-.introbutton:hover{
-  background: #B0a0B0;
-}
-
 /* code for the backgrounds */
 .html2 {
   background: url("images/space.jpg");
