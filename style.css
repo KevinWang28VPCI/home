@@ -131,8 +131,7 @@ body {
 .introbutton{
   transition: background-color 0.35s ease-out;
   display: block;
-  padding: .75em 1.25em;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   background: red;
